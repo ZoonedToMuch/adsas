@@ -1,0 +1,8 @@
+C:\Users\wetermelonnnnn\DumpSource2\src\main\appframework.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\appframework.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\concommands\concommands.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\concommands.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\metadata_stringifier.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\metadata_stringifier.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\schemas.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\schemas.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\main.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\main.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\common.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\common.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat_unix.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\plat_unix.obj
+C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat_win.cpp;C:\Users\wetermelonnnnn\DumpSource2\build\src\main\DumpSource2-CS2.dir\Release\plat_win.obj

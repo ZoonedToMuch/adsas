@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\appframework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\concommands\concommands.cpp">
+      <Filter>Source Files\dumpers\concommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\metadata_stringifier.cpp">
+      <Filter>Source Files\dumpers\schemas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\schemas.cpp">
+      <Filter>Source Files\dumpers\schemas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\common.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat_unix.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat_win.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\appframework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\concommands\concommands.h">
+      <Filter>Header Files\dumpers\concommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\metadata_stringifier.h">
+      <Filter>Header Files\dumpers\schemas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\metadatalist.h">
+      <Filter>Header Files\dumpers\schemas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\dumpers\schemas\schemas.h">
+      <Filter>Header Files\dumpers\schemas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\globalvariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\modules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\network_connection.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\common.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\module.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\oslink.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\plat_win.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\utils\virtual.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wetermelonnnnn\DumpSource2\src\main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A6720649-CABC-3732-8431-8ECB61F8FCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dumpers">
+      <UniqueIdentifier>{64278978-109A-3A23-B6C2-178B4CFF19B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dumpers\concommands">
+      <UniqueIdentifier>{5B475817-CDB5-3CDC-9680-397347AB3688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dumpers\schemas">
+      <UniqueIdentifier>{2066A2E0-81DE-33E0-8740-262725F20D5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{914816AD-9FC5-3889-9953-3895C8BAE139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73152D3E-0CA1-362D-BE9A-DA097244A315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dumpers">
+      <UniqueIdentifier>{1F6C3381-B5CE-3944-8150-EC9136EF1C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dumpers\concommands">
+      <UniqueIdentifier>{7E727BAD-4FF4-394D-BBAF-D8DCBCC7D35E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dumpers\schemas">
+      <UniqueIdentifier>{DD8E62A7-D42D-30B9-B9D7-C7C334D10733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{E4B66D1B-B06F-31D6-AAA5-C91321370B01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
