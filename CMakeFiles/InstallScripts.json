@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/wetermelonnnnn/DumpSource2/build/cmake_install.cmake",
+		"C:/Users/wetermelonnnnn/DumpSource2/build/vendor/cmake_install.cmake",
+		"C:/Users/wetermelonnnnn/DumpSource2/build/vendor/fmt/cmake_install.cmake",
+		"C:/Users/wetermelonnnnn/DumpSource2/build/vendor/spdlog/cmake_install.cmake",
+		"C:/Users/wetermelonnnnn/DumpSource2/build/src/cmake_install.cmake",
+		"C:/Users/wetermelonnnnn/DumpSource2/build/src/main/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
