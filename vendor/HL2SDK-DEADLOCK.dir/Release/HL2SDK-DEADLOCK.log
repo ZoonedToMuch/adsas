@@ -1,0 +1,11 @@
+﻿  Building Custom Rule C:/Users/wetermelonnnnn/DumpSource2/vendor/CMakeLists.txt
+  convar.cpp
+  generichash.cpp
+  keyvalues3.cpp
+C:\Users\wetermelonnnnn\DumpSource2\vendor\hl2sdk-deadlock\public\tier1\utlbuffer.h(962,6): warning C4312: приведение типов: преобразование из "unsigned int" в "void *" большего размера
+  (компиляция исходного файла "../../vendor/hl2sdk-deadlock/tier1/keyvalues3.cpp")
+  
+C:\Users\wetermelonnnnn\DumpSource2\vendor\hl2sdk-deadlock\public\tier1\utlbuffer.h(962,6): warning C4312: приведение типов: преобразование из "unsigned int" в "void *" большего размера
+  (компиляция исходного файла "../../vendor/hl2sdk-deadlock/tier1/convar.cpp")
+  
+  HL2SDK-DEADLOCK.vcxproj -> C:\Users\wetermelonnnnn\DumpSource2\build\vendor\Release\HL2SDK-DEADLOCK.lib
