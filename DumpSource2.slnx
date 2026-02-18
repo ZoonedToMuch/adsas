@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="src/main/DumpSource2-CS2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3bf406c3-9165-3d57-9bd0-e71eb2e982df">
+		<BuildDependency Project="vendor/HL2SDK-CS2.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="vendor/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="vendor/spdlog/spdlog.vcxproj"/>
+	</Project>
+	<Project Path="src/main/DumpSource2-DEADLOCK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8ae1ba06-c295-3de9-b31e-069ea03f5cdd">
+		<BuildDependency Project="vendor/HL2SDK-CS2.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="vendor/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="vendor/spdlog/spdlog.vcxproj"/>
+	</Project>
+	<Project Path="src/main/DumpSource2-DOTA.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="066de070-f4e0-3b9c-b7f8-12b94c48f766">
+		<BuildDependency Project="vendor/HL2SDK-CS2.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="vendor/fmt/fmt.vcxproj"/>
+		<BuildDependency Project="vendor/spdlog/spdlog.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d802c7b3-3587-3147-9f43-b4e5719b041d" DefaultStartup="true">
+			<BuildDependency Project="src/main/DumpSource2-CS2.vcxproj"/>
+			<BuildDependency Project="src/main/DumpSource2-DEADLOCK.vcxproj"/>
+			<BuildDependency Project="src/main/DumpSource2-DOTA.vcxproj"/>
+			<BuildDependency Project="vendor/HL2SDK-CS2.vcxproj"/>
+			<BuildDependency Project="vendor/HL2SDK-DEADLOCK.vcxproj"/>
+			<BuildDependency Project="vendor/HL2SDK-DOTA.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="vendor/fmt/fmt.vcxproj"/>
+			<BuildDependency Project="vendor/spdlog/spdlog.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="94da6d0f-6a49-332b-85cb-b676a09dbdb2">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="dbb2c38b-8b42-3534-bb82-133a126ae38c"/>
+	</Folder>
+	<Folder Name="/Libraries/">
+		<Project Path="vendor/fmt/fmt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d6f44167-8d69-3bd9-9220-7e73f1eaa295">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="vendor/spdlog/spdlog.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ae8bad26-0f07-38b1-b5e5-3b076e675b41">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="vendor/fmt/fmt.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/SDK/">
+		<Project Path="vendor/HL2SDK-CS2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="633e141d-ffd4-3f9d-8e79-c9acb6fa67b6">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="vendor/HL2SDK-DEADLOCK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="26f490af-708f-30ae-8554-3994e03f288f">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="vendor/HL2SDK-DOTA.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4200eaeb-d359-3894-9364-5f06ff12079a">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>
