@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\vendor\hl2sdk-dota\tier1\convar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\vendor\hl2sdk-dota\tier1\generichash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wetermelonnnnn\DumpSource2\vendor\hl2sdk-dota\tier1\keyvalues3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wetermelonnnnn\DumpSource2\vendor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{73152D3E-0CA1-362D-BE9A-DA097244A315}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

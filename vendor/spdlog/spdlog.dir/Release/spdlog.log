@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/wetermelonnnnn/DumpSource2/vendor/spdlog/CMakeLists.txt
+  spdlog.cpp
+  stdout_sinks.cpp
+  color_sinks.cpp
+  file_sinks.cpp
+  async.cpp
+  cfg.cpp
+  spdlog.vcxproj -> C:\Users\wetermelonnnnn\DumpSource2\build\vendor\spdlog\Release\spdlog.lib
